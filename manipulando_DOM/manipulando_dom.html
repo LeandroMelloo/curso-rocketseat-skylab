@@ -1,0 +1,21 @@
+<html>
+  <header>
+      <meta charset="UTF-8">
+      <title>Manipulando a DOM</title>
+  </header>
+  <body>
+      <input type="text" name="nome" id="nome" class="nome">
+          <div id="app">
+          <button class='botao'>Adicionar</button>
+      </div>
+      <script>
+        let inputElement = document.getElementById('nome')
+        let inputElementTagName = document.getElementsByTagName('input')[0]
+        let inputElementClassName = document.getElementsByClassName('nome')[0]
+
+        console.log(inputElement)
+        console.log(inputElementTagName)
+        console.log(inputElementClassName)
+      </script>
+    </body>
+</html>
